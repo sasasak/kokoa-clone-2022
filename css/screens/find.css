@@ -1,0 +1,29 @@
+.find-icons{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.find-icons__icon i{
+    font-size: 35px;
+}
+.find-icons__icon span{
+    margin-top: 15px;
+}
+.find-dot{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    bottom: 25px;
+}
