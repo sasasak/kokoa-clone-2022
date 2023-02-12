@@ -14,7 +14,7 @@
     margin-top: 30px;
 }
 .more-suggestions {
-    margin-top:50px;
+    margin-top:40px;
     border-top:var(--main--border);
     padding-top:40px
 }
@@ -40,7 +40,29 @@
     align-items: center;
     margin-bottom: 10px;
 }
+.color__pink{
+    background-color: rgb(240, 90, 135);
+}
+.color__blue{
+    background-color: rgb(0, 119, 255);
+}
 .more-suggestions__icon-image i{
     font-size: 32px;
     color:white;
+}
+.more-suggestions__ad{
+    width: 450px;
+    margin: 20px 0;
+    height: 250px;
+    border-radius: 10px;
+}
+.more-suggestions__ad-text{
+    display: flex;
+    width:450px;
+    height: 30px;
+    box-shadow: 0 5px 10px rgb(138, 138, 138);
+    border-radius: 10px;
+    justify-content: center;
+    align-items:center;
+    font-weight: 600;
 }

@@ -20,12 +20,13 @@
  @import "screens/more.css";
  @import "screens/settings.css";
  @import "screens/chat.css";
- 
+ @import "screens/news.css";
  
 body { 
      font-family: 'Open Sans', sans-serif;
      height: 1000vh;
      color:#2e363e;
+     font-family: 'Gowun Dodum', sans-serif;
 }
 .main-screen{
      padding: 0px var(--horizontal-space);

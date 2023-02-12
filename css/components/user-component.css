@@ -14,7 +14,7 @@
 }
 .user-component__title{
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
 }
 .user-component__subtitle{
     margin-top: 5px;
@@ -29,7 +29,9 @@
     width: 60px;
     height: 60px;
     border-radius: 25px;
+    background-color: pink;
 }
+
 .user-component__title--not-bold{
     font-weight:400;
 }
@@ -48,4 +50,24 @@
 }
 .user-component__column{
     margin:15px 0px;
+}
+.user-component__multiprofile
+{  
+    display: flex;
+    align-items: center;
+}
+.user-component__profile{
+    display: flex;
+    flex-direction: column;
+    margin:0 10px;
+}
+.user-component__title-multiprofile{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.user-component__subtitle{
+    font-size: 15px;
+    opacity: 0.9;
+    padding-top: 5px;
 }
